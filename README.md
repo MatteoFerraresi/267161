@@ -1,11 +1,11 @@
 # ARTIFICIAL INTELLIGENCE & MACHINE LEARNING: PROJECT - CUSTOMER SEGMENTATION
 
 ## Members
-'''bash
+```bash
 - Giulia Formiconi
 - Matteo Ferraresi
 - Mohamed Ali Ben Belhassen
-'''
+```
 
 # INTRODUCTION
 
