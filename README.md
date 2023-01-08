@@ -7,9 +7,6 @@ Giulia Formiconi -
 Mohamed Ali Ben Belhassen - 273771
 ```
 
-```bash
-SECTION 1
-```
 # **INTRODUCTION**
 
 We are studying a large company's subsidiary resident in Brazil, and the goal is to identify the ideal partitions and assign each user in the dataset to one of them. The data we have concerns users, sellers, payments, among other things. 
@@ -34,24 +31,18 @@ After performing an EDA and preprocessing the dataset, we used the following met
 
 Let's look into these algorithms deeper.
 
-```bash
-SECTION 2
-```
 # **ALGORITHMS**
+
+We started by calculating the RFM. We found the first and last date of purchase:
+![Min,Max](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/minmax.png)
 
 diventato 1 col merge e rimozione last purchase date e customer id poi standardizzato/scalato 
 
-```bash
-SECTION 3
-```
+
 # **EXPERIMENTAL DESIGN**
 
-```bash
-SECTION 4
-```
+
 # **RESULTS**
 
-```bash
-SECTION 5
-```
+
 # **CONCLUSIONS**
