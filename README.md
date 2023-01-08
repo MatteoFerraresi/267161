@@ -21,9 +21,10 @@ Following, we started building our model using the RFM analysis for customer seg
 We then plotted the RFM dataset to have a better look and we deduce that ..........
 
 Later on, we used the following methods, based on RFM, that will help us deeply explorate data, plot it, analyze it, and have a more clear understanding of what's going on:
-> 1. K-means \
-> 2. Hierarchical Clustering (Hc) \ 
-> 3. Spectral Clustering \
-> 4. EM Clustering using GMM \
-> 5. BIRCH \
-
+```bash
+1. K-means
+2. Hierarchical Clustering (Hc)
+3. Spectral Clustering
+4. EM Clustering using GMM
+5. BIRCH
+```
