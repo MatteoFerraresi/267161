@@ -34,6 +34,7 @@ Let's look into these algorithms deeper.
 # **ALGORITHMS**
 
 We started by calculating the RFM. We found the first and last date of purchase:
+
 ![Min,Max](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/minmax.png)
 
 diventato 1 col merge e rimozione last purchase date e customer id poi standardizzato/scalato 
