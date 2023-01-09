@@ -61,6 +61,40 @@ DBSCAN works by identifying points in the dataset that are "core points", which 
 To identify clusters, DBSCAN starts with an arbitrary point in the dataset and retrieves all points within the epsilon distance. If the number of points is greater than a specified minimum number (called "MinPts"), the cluster is considered to be a dense region and the algorithm expands the cluster by retrieving all points within the epsilon distance of the points in the cluster. The process is repeated until no more points can be added to the cluster. The algorithm then moves on to the next point in the dataset and repeats the process until all points have been processed.
 One of the advantages of DBSCAN is that it does not require the user to specify the number of clusters in the dataset. It is also robust to noise and can identify clusters of arbitrary shape.
 
+______
+
+Succeeding, we imported the libraries and the dataset: logical and necessary step to provide a functional code. 
+
+We then decided to conduct some data cleaning: startedwith the check of empty columns, then with the removal of duplicates (double checked to make sure everything is on track), changed the data type in the date columns so that it matches the supported data type, created a column "month_order" for data exploration, checked from when to when did the purchases go (so what time interval we are looking for), and finally split the data based on its datatype ("only_nymeric", "only_object", "only_time")
+
+Next, we took care of the exploratory data analysis and created the following heatmap:
+
+![heatmap](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/hitmap.png) 
+
+We got some insights that could be useful to the company!
+
+![orderstatus](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/order_status.png)
+______
+![paymenttype](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/payment_type.png)
+______
+![customerstatedistribution](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/cust_state_distr.png)
+______
+![sellerstatedistribution](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/seller_state_distr.png)
+______
+![orderitemiddistribution](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/order_item_id_distr.png)
+______
+![top20bestsellingproducts](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/top_20_best_selling_products.png)
+______
+![top20mostpopularcities](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/top_20_most_popular_cities.png)
+______
+![top10customerbasedonorderamount](https://github.com/MatteoFerraresi/267161/blob/main/images/top_10_cust_based_on_order_amount.png)
+______
+![top10customerbasedonspending](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/top_10_cust_based_on_spending.png)
+______
+![top10fastestproductcategoryordertime](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/top_10_fsatest_product_category_order_time.png)
+______
+![top10slowestproductcategoryordertime](https://raw.githubusercontent.com/MatteoFerraresi/267161/main/images/top_10_slowest_product_category_order_time.png)
+
 
 # **EXPERIMENTAL DESIGN**
 
